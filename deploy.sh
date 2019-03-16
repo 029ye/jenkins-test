@@ -15,7 +15,7 @@ killTomcat(){
    fi
 }
 
-cd $PROJ_PATH/jenkins-test
+cd $PROJ_PATH/
 mvn clean install
 
 #关闭Tomcat
