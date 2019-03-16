@@ -5,6 +5,6 @@
 </head>
 <body>
 <h2>Jenkins 学习</h2>
-<h2>测试项目</h2>
+<h2>测试项目定时触发构建</h2>
 </body>
 </html>
