@@ -24,7 +24,7 @@ killTomcat
 rm -rf $TOMCAT_PATH/webapps/jenkins-test
 rm -f $TOMCAT_PATH/webapps/jenkins-test.war
 
-cp $PROJ_PATH/jenkins-test/target/jenkins-test.war $TOMCAT_PATH/webapps/
+cp $PROJ_PATH/target/jenkins-test.war $TOMCAT_PATH/webapps/
 cd $TOMCAT_PATH/
 sh bin/startup.sh
 
