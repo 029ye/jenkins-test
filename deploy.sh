@@ -6,7 +6,7 @@
 
 #定义关闭Tomcat 进程函数
 killTomcat(){
-   pid = `ps -ef | grep tomcat | grep java | awk '{print $2}'`
+   pid=`ps -ef | grep tomcat | grep java | awk '{print $2}'`
    if [ "$pid" = "" ]
    then
      echo "no tomcat running"
