@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="edu-jenkins:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <root id="archive" name="edu-jenkins.war">
+      <element id="artifact" artifact-name="edu-jenkins:war exploded" />
+    </root>
+  </artifact>
+</component>
